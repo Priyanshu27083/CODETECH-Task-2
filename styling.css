@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Front Page Styles */
+.front-page-container {
+    text-align: center;
+}
+
+#start-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#start-btn:hover {
+    background-color: #218838;
+}
+
+/* Quiz Page Styles */
+.quiz-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.hide {
+    display: none;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.magic-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.quiz-content {
+    width: 55%;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.quiz-content label {
+    display: block;
+    margin-bottom: 10px;
+}
