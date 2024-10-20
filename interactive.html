@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        body {
+            background-image: url('quiz.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Front Page -->
+    <div id="front-page" class="front-page-container">
+        
+        <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quiz-page" class="quiz-container hide">
+        <div class="quiz-content">
+            <div id="quiz"></div>
+            <button id="prev-btn" class="hide">Previous</button>
+            <button id="next-btn">Next</button>
+            <button id="submit" class="hide">Submit Quiz</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+
+    <script src="qscript.js"></script>
+</body>
+</html>
